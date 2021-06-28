@@ -1,6 +1,19 @@
 # movie
 
-A new Flutter project.
+Bem-vindo ao wiki de filmes! Projeto mobile desenvolvido em Flutter com Mobx para o gerenciamento de estado.
+
+Foi utilizada a API para retornar as informações dos filmes:
+
+URL: https://api.themoviedb.org/3/movie/500/recommendations
+
+Funcionalidades Básicas: <br>
+1 - Home com filmes aleatórios e detalhe do filme selecionado <br>
+2 - Pesquisa de filmes <br>
+3 - Uma tela de favoritos<br>
+
+Atenção: Para gerar novos arquivos do mobx, é necessário executar os seguintes comandos: <br>
+flutter packages pub run build_runner clean<br>
+flutter packages pub run build_runner build<br>
 
 ## Getting Started
 
